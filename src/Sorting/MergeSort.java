@@ -1,64 +1,80 @@
 package Sorting;
 
 /**
- * Created by jesuszarate on 12/27/15.
+ * Created by Jesus Zarate on 12/27/15.
  *
  * Implementation of Merge Sort
  */
 public class MergeSort
 {
     public int[] mergeSort(int[] A){
-        return mergeSortRec(A, 0, A.length);
+        int[] temp = new int[A.length];
+        mergeSortRec(A, temp, 0, A.length - 1);
+        return A;
     }
 
-    public int[] mergeSortRec(int[] A, int begin, int end){
+    public void mergeSortRec(int[] A, int[] temp, int begin, int end){
+        if(begin >= end){
+            return;
+        }
 
         int mid = begin + ((end - begin) / 2);
 
-        if(mid <= 0){
-            return new int[]{A[begin]};
-        }
+        mergeSortRec(A, temp, begin, mid);
+        mergeSortRec(A, temp, mid + 1, end);
 
-        int[] A1 = mergeSortRec(A, begin, mid);
-        int[] A2 = mergeSortRec(A, mid + 1, end);
-
-        return merge(A1, A2);
+        merge(A, temp, begin, mid + 1, end);
     }
 
-    public int[] merge(int[] A1, int[] A2){
+    public void merge(int[] A, int[] temp, int begin, int mid, int end){
 
-        int[] temp = new int[A1.length + A2.length];
+        int curr = begin;
+        int first = begin;
+        int second = mid;
 
-        int ind1 = 0, ind2 = 0, curr = 0;
-
-        while(ind1 < A1.length && ind2 < A2.length)
+        while(first <= mid && second <= end)
         {
-            if(A1[ind1] < A2[ind2]){
-                temp[curr] = A1[ind1];
-                curr++; ind1++;
+            if(A[first] < A[second]){
+                temp[curr] = A[first];
+                curr++; first++;
             }
             else {
-                temp[curr] = A2[ind2];
-                curr++; ind2++;
+                temp[curr] = A[second];
+                curr++; second++;
             }
         }
 
-        if(ind1 < A1.length)
+        if(first <= mid)
         {
-            for(int i = ind1; i < A1.length; i++)
+            String here = "";
+            for(int i = first; i <= mid; i++)
             {
-                temp[curr] = A1[i];
+                try
+                {
+                    temp[curr] = A[i];
+                }
+                catch (Exception e)
+                {
+                    here = "hello";
+                }
+                curr++;
+                System.out.print(here);
+            }
+        }
+        else if(second < end)
+        {
+            for(int i = second; i < end; i++)
+            {
+                temp[curr] = A[i];
                 curr++;
             }
         }
-        else if(ind2 < A2.length)
+
+        for(int i = begin; i <= end; i++)
         {
-            for(int i = ind2; i < A2.length; i++)
-            {
-                temp[curr] = A2[i];
-                curr++;
-            }
+            System.out.print(temp[i] + ", ");
+            A[i] = temp[i];
         }
-        return temp;
+        System.out.println();
     }
 }
