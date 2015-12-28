@@ -11,11 +11,20 @@ public class MainSort
     {
         int[] arr = new int[]{5, 3, 7, 1, 20, 13};
         MergeSort mergeSort = new MergeSort();
-        arr = mergeSort.mergeSort(arr);
+        //arr = mergeSort.mergeSort(arr);
 
 
-        for(int i : arr)
-            System.out.print(i + " ");
+        //for(int i : arr)
+            //System.out.print(i + " ");
+
+
+
+        QuickSort quickSort = new QuickSort();
+        System.out.println(quickSort.getPivot(arr, 0, 5) + " = 7");
+        System.out.println(quickSort.getPivot(arr, 0, 2) + " = 5");
+        System.out.println(quickSort.getPivot(arr, 1, 3) + " = 3");
+        System.out.println(quickSort.getPivot(arr, 2, 4) + " = 7");
+        System.out.println(quickSort.getPivot(arr, 3, 5) + " = 13");
 
 
     }
