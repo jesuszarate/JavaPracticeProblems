@@ -16,7 +16,7 @@ public class QuickSort
         }
 
         int pivotInd = partition(A, leftBound, rightBound);
-        QuickSortRec(A, leftBound, pivotInd); // Left recur
+        QuickSortRec(A, leftBound, pivotInd - 1); // Left recur
         QuickSortRec(A, pivotInd + 1, rightBound); // right recur
     }
 
@@ -27,18 +27,18 @@ public class QuickSort
         swap(A, pivotInd,rightBound);
 
 
-        int L = leftBound, R = rightBound;
+        int L = leftBound, R = rightBound - 1;
 
         while (L <= R)
         {
             // Find the left swap
-            if(A[L] >= pivot)
+            if(A[L] <= pivot)
             {
                 L++; continue;
             }
 
             // Find the right swap
-            if(A[R] <= pivot)
+            if(A[R] >= pivot)
             {
                 R--; continue;
             }
@@ -62,21 +62,20 @@ public class QuickSort
 
     public int getPivot(int[] A, int leftBound, int rightBound)
     {
+        int first = A[leftBound];
         int mid = (leftBound + rightBound) / 2;
+        int last = A[rightBound];
 
-        int median;
-        int max1 = A[leftBound] > A[mid] ? A[leftBound] : A[mid];
-        int max2 = A[rightBound] < A[mid] ? A[rightBound] : A[mid];
+        int median = first > A[mid] ? leftBound : mid;
 
-        return max1 < max2 ? max1 : max2;
+        if(A[median] > last){
+            median = rightBound;
+            if(first > A[median]){
+                median = leftBound;
+            }
+        }
 
-        //median = median < A[rightBound] ? median: A[rightBound];
-        //return median > A[mid] ? median : A[mid];
+        return median;
     }
-
- //3 4 5 -> 4 < 5 -> 4
-   //  6 5
-    // 5 3
-
 
 }

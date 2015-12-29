@@ -16,10 +16,14 @@ public class MainSort
 
         //for(int i : arr)
             //System.out.print(i + " ");
-
-
-
         QuickSort quickSort = new QuickSort();
+
+        quickSort.QuickSort(arr);
+
+        for(int i : arr)
+            System.out.print(i + " ");
+
+        System.out.println();
         System.out.println(quickSort.getPivot(arr, 0, 5) + " = 7");
         System.out.println(quickSort.getPivot(arr, 0, 2) + " = 5");
         System.out.println(quickSort.getPivot(arr, 1, 3) + " = 3");
