@@ -14,7 +14,7 @@ public class KnapSack
         for (int item = 1; item < items.length; item++){
             for (int weight = 1; weight < weights.length; weight++)
             {
-
+                //if(weight[item] < )
             }
         }
         return data[items.length - 1][weights.length - 1];
