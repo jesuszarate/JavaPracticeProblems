@@ -79,7 +79,7 @@ public class FindPonds
                 totSize++;
             }
 
-            addNeighbors(currRow, currCol, q, Land, visited);
+            addNeighbors(curr.row, curr.col, q, Land, visited);
         }
         return totSize;
     }
@@ -98,8 +98,8 @@ public class FindPonds
                     if(!visited[i][j] && Land[i][j] == 0)
                     {
                         q.add(new Node(i, j));
-                        visited[i][j] = true;
                     }
+                    visited[i][j] = true;
                 }
             }
         }
