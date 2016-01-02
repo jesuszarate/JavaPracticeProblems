@@ -68,12 +68,12 @@
       <file leaf-file-name="FindPonds.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FindPonds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.5083532">
-              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6801909">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1103#1112#0" expanded="true" />
-                <element signature="e#1857#1863#0" expanded="true" />
+                <element signature="e#1380#1389#0" expanded="true" />
+                <element signature="e#2034#2040#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -678,7 +678,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451699909445</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implemented FindPonds. Finished testing.">
+      <created>1451700803075</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1451700803075</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -692,7 +698,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42098445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42098445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -733,7 +739,8 @@
     <MESSAGE value="Added a Find Ponds method." />
     <MESSAGE value="Added description to the pond problem, with exmple input and output." />
     <MESSAGE value="Implemented FindPonds. Without testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented FindPonds. Without testing." />
+    <MESSAGE value="Implemented FindPonds. Finished testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented FindPonds. Finished testing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -778,12 +785,6 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindPonds.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="52" />
@@ -1175,12 +1176,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FindPonds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.5083532">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6801909">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1103#1112#0" expanded="true" />
-            <element signature="e#1857#1863#0" expanded="true" />
+            <element signature="e#1380#1389#0" expanded="true" />
+            <element signature="e#2034#2040#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -31,6 +30,18 @@ public class FindPonds
                {1, 1, 0, 1},
                {0, 1, 0, 1}};
 
+        land = new int[][]{
+                {0, 2, 1, 0,},
+                {0, 1, 0, 1},
+                {1, 0, 0, 0},
+                {0, 1, 0, 1}};
+
+        land = new int[][]{
+                {0, 2, 1, 0,},
+                {0, 1, 0, 1},
+                {1, 1, 9, 0},
+                {0, 1, 0, 1}};
+
         for(int i : findPonds(land)){
             System.out.print(i + " ");
         }
@@ -44,8 +55,6 @@ public class FindPonds
         int colLen = Land[0].length;
 
         boolean[][] visited = new boolean[rowLen][colLen];
-        //Arrays.fill(visited[0], Boolean.FALSE);
-        //Arrays.fill(visited[1], Boolean.FALSE);
 
         for(int row = 0; row < rowLen; row++)
         {
