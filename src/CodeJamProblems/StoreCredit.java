@@ -59,33 +59,49 @@ package CodeJamProblems;
 public class StoreCredit
 {
     public static void main(String[] args){
-
+        String input = "3\n" +
+                "100\n" +
+                "3\n" +
+                "5 75 25\n" +
+                "200\n" +
+                "7\n" +
+                "150 24 79 50 88 345 3\n" +
+                "8\n" +
+                "8\n" +
+                "2 1 9 4 4 56 90 3";
+        parseData(input);
     }
 
     public static void parseData(String input){
 
         // Split by line
         String[] lines = input.split("\n");
+        int count = 0;
 
         try
         {
             // First line gives number of cases
             int cases = Integer.parseInt(lines[0]);
 
-            // Second line gives the credit
-            int credit = Integer.parseInt(lines[1]);
 
-            // Number of items in the store
-            int numOfItems = Integer.parseInt(lines[2]);
+            for(int item = 1; item < lines.length; item+=3)
+            {
+                // Second line gives the credit
+                int credit = Integer.parseInt(lines[item]);
 
-            // Price of items in the store
-            String[] itemsS = lines[3].split(" ");
+                // Number of items in the store
+                int numOfItems = Integer.parseInt(lines[item+1]);
 
-            int[] items = new int[itemsS.length];
-            for(int i = 0; i < itemsS.length; i++){
-                items[i] = Integer.parseInt(itemsS[i]);
+                // Price of items in the store
+                String[] itemsS = lines[item+2].split(" ");
+
+                int[] items = new int[itemsS.length];
+                for (int i = 0; i < itemsS.length; i++)
+                {
+                    items[i] = Integer.parseInt(itemsS[i]);
+                }
+                count++;
             }
-
 
         }
         catch (Exception e){
@@ -93,6 +109,6 @@ public class StoreCredit
             return;
         }
 
-
+        System.out.print(count);
     }
 }
