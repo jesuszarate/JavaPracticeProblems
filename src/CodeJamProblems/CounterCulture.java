@@ -56,47 +56,65 @@ public class CounterCulture
 {
     public static void main(String args[])
     {
-        String s = "3200";
+        String s = "32003";
 
-        System.out.println(s.substring(0, 3));
-        System.out.println(s.substring(0, 2));
+        s = removeTrailingZeros(s);
+        s = flip(s);
+
+        System.out.println(s);
+
+        String input = "3\n" +
+                "1\n" +
+                "19\n" +
+                "23";
+        runCounterCulture(input);
+
+        System.out.println(countCulture("1"));
     }
-    public static void parseInput(String input)
+    public static void runCounterCulture(String input)
     {
         String[] lines = input.split("\n");
 
 
         int cases = Integer.parseInt(lines[0]);
 
+        int curCase = cases;
+
         for(int i = 1; i < lines.length; i++)
         {
             //int item = Integer.parseInt(lines[i]);
-            String here = countCulture(lines[i]);
+            System.out.println("Case #" + (cases - curCase--)  + " " + countCulture(lines[i]));
         }
 
     }
 
-    private static String countCulture(String item)
+    private static int countCulture(String item)
     {
-        int num = Integer.parseInt(item);
-        for(int i = 0; i <= num; i++)
+        int totCount = 0;
+        int itemNum = Integer.parseInt(item);
+        for(int i = 1; i <= itemNum; i++)
         {
-            String current = removeTrailingZeros(item);
-            String flipped = flip(current);
+            String currentS = removeTrailingZeros(i + "");
+            currentS = flip(currentS);
 
-
+            int currentInt = Integer.parseInt(currentS);
+            if(currentInt > i && currentInt <= itemNum){
+                i = currentInt - 1;
+            }
+            totCount++;
         }
-        return null;
+        return totCount;
     }
 
     private static String removeTrailingZeros (String current)
     {
+
         for(int i = current.length() - 1; i >= 0; i--)
         {
-            if(current.charAt(i) == '0')
-            {
-                current = current.substring(0, i);
-            }
+            if(current.charAt(i) != '0')
+                return current;
+
+            current = current.substring(0, i);
         }
         return current;
     }
