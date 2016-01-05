@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeJamProblems/StoreCredit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeJamProblems/CounterCulture.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PracticeProblems.iws" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorting/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReverseWords.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReverseWords.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoreCredit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StoreCredit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodeJamProblems/StoreCredit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.279152">
+            <state vertical-scroll-proportion="0.0">
               <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CounterCulture.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CodeJamProblems/CounterCulture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.6890459">
+              <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -168,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/DynamicPrograms/KnapSack.java" />
         <option value="$PROJECT_DIR$/src/FindPonds.java" />
         <option value="$PROJECT_DIR$/src/CodeJamProblems/StoreCredit.java" />
+        <option value="$PROJECT_DIR$/src/CodeJamProblems/CounterCulture.java" />
       </list>
     </option>
   </component>
@@ -282,30 +283,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.FindPonds">
-    <configuration default="false" name="Threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Threads" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeProblems" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CounterCulture">
     <configuration default="false" name="Equalibrium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Equalibrium" />
@@ -377,6 +355,26 @@
     <configuration default="false" name="FindPonds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FindPonds" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeProblems" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CounterCulture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CodeJamProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="CodeJamProblems.CounterCulture" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -635,19 +633,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Threads" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Equalibrium" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MainSort" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FindPonds" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Equalibrium" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainSort" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FindPonds" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CounterCulture" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FindPonds" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainSort" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Equalibrium" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Threads" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CounterCulture" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FindPonds" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainSort" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Equalibrium" />
       </list>
     </recent_temporary>
   </component>
@@ -728,7 +726,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451700962094</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Parse input of individual items.">
+      <created>1451781660540</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1451781660540</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -785,7 +789,8 @@
     <MESSAGE value="Implemented FindPonds. Without testing." />
     <MESSAGE value="Implemented FindPonds. Finished testing." />
     <MESSAGE value="Added extra tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added extra tests." />
+    <MESSAGE value="Parse input of individual items." />
+    <option name="LAST_COMMIT_MESSAGE" value="Parse input of individual items." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,13 +846,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IsSentencePalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Part4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1228,8 +1226,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeJamProblems/StoreCredit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.279152">
+        <state vertical-scroll-proportion="0.0">
           <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeJamProblems/CounterCulture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6890459">
+          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
           <folding />
         </state>
       </provider>
