@@ -76,7 +76,7 @@ public class StoreCredit
 
         // Split by line
         String[] lines = input.split("\n");
-        int count = 0;
+        int c = 3;
 
         try
         {
@@ -100,15 +100,35 @@ public class StoreCredit
                 {
                     items[i] = Integer.parseInt(itemsS[i]);
                 }
-                count++;
+
+                String itms = getItems(credit, numOfItems, items);
+                System.out.println("Case #" + (cases - c--) + " " + itms);
             }
 
         }
         catch (Exception e){
             System.out.println("Could not parse line to integer");
-            return;
         }
+    }
 
-        System.out.print(count);
+    private static String getItems(int credit, int numOfItems, int[] items)
+    {
+        StringBuilder stringBuilder = new StringBuilder();
+
+        for(int currItem = 0; currItem < numOfItems; currItem++)
+        {
+            if (items[currItem] > credit)
+                continue;
+            for (int i = currItem + 1; i < numOfItems; i++)
+            {
+                if(i == currItem)
+                    continue;
+
+                if ((items[currItem] + items[i]) == credit)
+                    return stringBuilder.append(currItem + 1).
+                            append(" ").append(i + 1).toString();
+            }
+        }
+        return null;
     }
 }
