@@ -103,14 +103,46 @@ public class Pegman
 
     public static void minimumChanges(String[] data, int row, int col)
     {
+        boolean[][] visited = new boolean[row][col];
+        char[][] grid = initGrid(data, row, col);
+
+        // Maybe I just need to check on the outer edges
+        for(int r = 0; r < row; r++)
+        {
+            for(int c = 0; c < col; c++)
+            {
+                switch (grid[r][c]){
+                    case '^':
+                        break;
+                    case 'v':
+                        break;
+                    case '>':
+                        break;
+                    case '<':
+                        break;
+
+                }
+                if(grid[r][c] == '^')
+                {
+
+                }
+
+            }
+        }
+    }
+
+    public static char[][] initGrid(String[] data, int row, int col)
+    {
         char[][] grid = new char[row][col];
         for(int r = 0; r < row; r++)
         {
             for(int c = 0; c < col; c++)
             {
-                grid[r][c] = data[r].charAt(c);
+                if(data[r].charAt(c) != '\n')
+                    grid[r][c] = data[r].charAt(c);
             }
         }
+        return grid;
     }
 
     public class node
