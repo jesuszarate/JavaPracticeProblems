@@ -79,6 +79,12 @@ import java.util.ArrayList;
  */
 public class Pegman
 {
+    public static final char UP = '^';
+    public static final char DOWN = 'v';
+    public static final char LEFT = '<';
+    public static final char RIGHT = '>';
+    public static final char NONE = '.';
+
     public static void main(String[] args)
     {
         String input = "4\n" +
@@ -106,29 +112,41 @@ public class Pegman
         boolean[][] visited = new boolean[row][col];
         char[][] grid = initGrid(data, row, col);
 
+        char currentDirection = '.';
+
         // Maybe I just need to check on the outer edges
         for(int r = 0; r < row; r++)
         {
             for(int c = 0; c < col; c++)
             {
                 switch (grid[r][c]){
-                    case '^':
+                    case UP:
+                        //if()
+                        {
+
+                        }
+                        currentDirection = checkBounds(UP, r, c);
                         break;
-                    case 'v':
+                    case DOWN:
+                        currentDirection = DOWN;
                         break;
-                    case '>':
+                    case LEFT:
+                        currentDirection = LEFT;
                         break;
-                    case '<':
+                    case RIGHT:
+                        currentDirection = RIGHT;
+                        break;
+                    case  NONE:
                         break;
 
                 }
-                if(grid[r][c] == '^')
-                {
-
-                }
-
             }
         }
+    }
+
+    private static char checkBounds(char currentDirection, int r, int c)
+    {
+        return ' ';
     }
 
     public static char[][] initGrid(String[] data, int row, int col)
