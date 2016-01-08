@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="Added pegman problem.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CareerCup/MaxValueOfLengths.java" />
+    <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CareerCup/SumOfArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman$node.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman$node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CodeJamProblems/Pegman.java" afterPath="$PROJECT_DIR$/src/CodeJamProblems/Pegman.java" />
     </list>
     <ignored path="PracticeProblems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,12 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxValueOfLengths.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxValueOfLengths.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CareerCup/MaxValueOfLengths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42402828">
+            <state vertical-scroll-proportion="0.0">
               <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumOfArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CareerCup/SumOfArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9699647">
+              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#895#904#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/DynamicPrograms/EverySubsetOfSet.java" />
         <option value="$PROJECT_DIR$/src/CodeJamProblems/Pegman.java" />
         <option value="$PROJECT_DIR$/src/CareerCup/MaxValueOfLengths.java" />
+        <option value="$PROJECT_DIR$/src/CareerCup/SumOfArray.java" />
       </list>
     </option>
   </component>
@@ -235,22 +250,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.MaxValueOfLengths">
-    <configuration default="false" name="FindPonds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FindPonds" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeProblems" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SumOfArray">
     <configuration default="false" name="CounterCulture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -319,6 +319,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="CareerCup.MaxValueOfLengths" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeProblems" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SumOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CareerCup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="CareerCup.SumOfArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -577,19 +597,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FindPonds" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CounterCulture" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StoreCredit" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Pegman" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MaxValueOfLengths" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CounterCulture" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StoreCredit" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Pegman" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MaxValueOfLengths" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SumOfArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MaxValueOfLengths" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Pegman" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StoreCredit" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CounterCulture" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FindPonds" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SumOfArray" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MaxValueOfLengths" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Pegman" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StoreCredit" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CounterCulture" />
       </list>
     </recent_temporary>
   </component>
@@ -706,7 +726,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452141913265</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Finished max value of lengths problem.">
+      <created>1452217251976</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1452217251976</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -720,7 +746,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23056994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23056994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -769,7 +795,8 @@
     <MESSAGE value="Parsing multiple item now instead of one." />
     <MESSAGE value="Completed implementation of store credit" />
     <MESSAGE value="Added pegman problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pegman problem." />
+    <MESSAGE value="Finished max value of lengths problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished max value of lengths problem." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -821,8 +848,14 @@
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CareerCup/SumOfArray.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="67" />
+      <option name="time" value="70" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -831,13 +864,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Part2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1217,9 +1243,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CareerCup/MaxValueOfLengths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42402828">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CareerCup/SumOfArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9699647">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#895#904#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
