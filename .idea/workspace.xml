@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CareerCup/SumOfArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman$node.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman$node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CareerCup/SumOfArray.java" afterPath="$PROJECT_DIR$/src/CareerCup/SumOfArray.java" />
     </list>
     <ignored path="PracticeProblems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,11 +71,11 @@
       <file leaf-file-name="SumOfArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CareerCup/SumOfArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9699647">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.84805655">
+              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#895#904#0" expanded="true" />
+                <element signature="e#1388#1397#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -732,7 +730,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452217251976</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Implemented arraySums">
+      <created>1452224794348</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1452224794348</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -796,7 +800,8 @@
     <MESSAGE value="Completed implementation of store credit" />
     <MESSAGE value="Added pegman problem." />
     <MESSAGE value="Finished max value of lengths problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished max value of lengths problem." />
+    <MESSAGE value="Implemented arraySums" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented arraySums" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -850,12 +855,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CareerCup/SumOfArray.java</url>
-          <line>54</line>
+          <line>74</line>
           <properties />
-          <option name="timeStamp" value="68" />
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="70" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1251,11 +1256,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CareerCup/SumOfArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9699647">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.84805655">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#895#904#0" expanded="true" />
+            <element signature="e#1388#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
