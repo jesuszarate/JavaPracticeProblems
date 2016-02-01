@@ -19,7 +19,8 @@ public class FindSumOfTwoElements
         int start = 0;
         int end = A.length - 1;
         int sum;
-        while(start < A.length - 1 && end >= 0)
+        //while(start < A.length - 1 && end >= 0)
+        while(start < end && end >= start)
         {
             sum = A[start] + A[end];
             if(sum > x)
@@ -27,7 +28,7 @@ public class FindSumOfTwoElements
             else if(sum < x)
                 start++;
             else {
-                System.out.println(A[start] + " and " + A[end]);
+                System.out.println(A[start] + " and " + A[end] + " = " + x);
                 return;
             }
 

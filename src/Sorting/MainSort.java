@@ -33,6 +33,9 @@ public class MainSort
 
         arr = new int[]{6,3,6,1,4,8,5,8};
         FindSumOfTwoElements fs = new FindSumOfTwoElements();
-        fs.find(arr, 17);
+        for(int i = 0; i < 17; i++)
+        {
+            fs.find(arr, i);
+        }
     }
 }
