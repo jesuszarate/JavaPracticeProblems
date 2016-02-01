@@ -1,5 +1,7 @@
 package Sorting;
 
+import java.util.Arrays;
+
 /**
  * Created by Jesus Zarate on 12/27/15.
  *
@@ -10,6 +12,28 @@ package Sorting;
 public class FindSumOfTwoElements
 {
 
+    public void find(int[] A, int x)
+    {
+        Arrays.sort(A); // Would use merge sort in this case
+
+        int start = 0;
+        int end = A.length - 1;
+        int sum;
+        while(start < A.length - 1 && end >= 0)
+        {
+            sum = A[start] + A[end];
+            if(sum > x)
+                end--;
+            else if(sum < x)
+                start++;
+            else {
+                System.out.println(A[start] + " and " + A[end]);
+                return;
+            }
+
+        }
+        System.out.println("No two numbers add up to: " + x);
+    }
     public int[] FindSumOfTwoElements(int[] A, int x){
         int[] temp = new int[A.length];
         mergeSortRec(A, temp, 0, A.length - 1, x);

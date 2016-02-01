@@ -33,6 +33,6 @@ public class MainSort
 
         arr = new int[]{6,3,6,1,4,8,5,8};
         FindSumOfTwoElements fs = new FindSumOfTwoElements();
-        fs.FindSumOfTwoElements(arr, 8);
+        fs.find(arr, 17);
     }
 }
