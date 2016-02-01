@@ -20,16 +20,19 @@ public class MainSort
 
         quickSort.QuickSort(arr);
 
-        for(int i : arr)
-            System.out.print(i + " ");
+//        for(int i : arr)
+//            System.out.print(i + " ");
 
-        System.out.println();
-        System.out.println(quickSort.getPivot(arr, 0, 5) + " = 7");
-        System.out.println(quickSort.getPivot(arr, 0, 2) + " = 5");
-        System.out.println(quickSort.getPivot(arr, 1, 3) + " = 3");
-        System.out.println(quickSort.getPivot(arr, 2, 4) + " = 7");
-        System.out.println(quickSort.getPivot(arr, 3, 5) + " = 13");
+//        System.out.println();
+//        System.out.println(quickSort.getPivot(arr, 0, 5) + " = 7");
+//        System.out.println(quickSort.getPivot(arr, 0, 2) + " = 5");
+//        System.out.println(quickSort.getPivot(arr, 1, 3) + " = 3");
+//        System.out.println(quickSort.getPivot(arr, 2, 4) + " = 7");
+//        System.out.println(quickSort.getPivot(arr, 3, 5) + " = 13");
 
 
+        arr = new int[]{6,3,6,1,4,8,5,8};
+        FindSumOfTwoElements fs = new FindSumOfTwoElements();
+        fs.FindSumOfTwoElements(arr, 8);
     }
 }
