@@ -19,7 +19,6 @@ public class FindSumOfTwoElements
         int start = 0;
         int end = A.length - 1;
         int sum;
-        //while(start < A.length - 1 && end >= 0)
         while(start < end && end >= start)
         {
             sum = A[start] + A[end];
