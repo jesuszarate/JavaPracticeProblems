@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BigInteger/BigInt.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BigInteger/BigIntMultiplication.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BigInteger/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman$node.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman$node.class" />
@@ -14,9 +13,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Main.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Permutaions$nFactorialPermutation.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Permutaions$nFactorialPermutation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Permutaions.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Permutaions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="PracticeProblems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -847,7 +844,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457032534333</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Implemented Big Integer multiplication">
+      <created>1473474647350</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1473474647350</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -893,7 +896,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
-    <MESSAGE value="Implemented QuickSort. Note: need to test." />
     <MESSAGE value="Finished and tested Quicksort" />
     <MESSAGE value="Implemented reverse words class." />
     <MESSAGE value="Added a dynamic program section. Started knapsack problem." />
@@ -918,7 +920,8 @@
     <MESSAGE value="Algorithm works." />
     <MESSAGE value="Optimized the loop." />
     <MESSAGE value="Practice exam problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice exam problem" />
+    <MESSAGE value="Implemented Big Integer multiplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Big Integer multiplication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
