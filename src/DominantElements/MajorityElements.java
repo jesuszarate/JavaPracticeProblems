@@ -1,6 +1,7 @@
 package DominantElements;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
@@ -8,6 +9,27 @@ import java.util.NoSuchElementException;
  */
 public class MajorityElements
 {
+    private class it implements Iterator{
+
+        @Override
+        public boolean hasNext()
+        {
+            return false;
+        }
+
+        @Override
+        public Object next()
+        {
+            return null;
+        }
+
+        @Override
+        public void remove()
+        {
+
+        }
+    }
+
     public String majority(int[] data, String oddOneOut)
     {
         int length = data.length;
