@@ -6,30 +6,31 @@ public class Solution
 {
     public static void main(String[] args)
     {
+        twoSum(new int[]{3, 2, 4}, 6);
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-
-        int numTests = 0;
-        //boolean isNum = Int32.TryParse(Console.ReadLine(), out numTests);
-
-        Scanner scanner = new Scanner(System.in);
-
-        numTests = Integer.parseInt(scanner.nextLine());
-
-        for (int i = 0; i < numTests; i++)
-        {
-            int arrSize = 0;
-
-            arrSize = Integer.parseInt(scanner.nextLine());
-
-            int[] arr = toIntArr(scanner.nextLine().split(" "));
-            if (arrSize == arr.length)
-            {
-                if (trySort(arr)) System.out.println("YES");
-
-                else System.out.println("NO");
-            }
-
-        }
+//
+//        int numTests = 0;
+//        //boolean isNum = Int32.TryParse(Console.ReadLine(), out numTests);
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        numTests = Integer.parseInt(scanner.nextLine());
+//
+//        for (int i = 0; i < numTests; i++)
+//        {
+//            int arrSize = 0;
+//
+//            arrSize = Integer.parseInt(scanner.nextLine());
+//
+//            int[] arr = toIntArr(scanner.nextLine().split(" "));
+//            if (arrSize == arr.length)
+//            {
+//                if (trySort(arr)) System.out.println("YES");
+//
+//                else System.out.println("NO");
+//            }
+//
+//        }
     }
 
     public static boolean trySort(int[] arr)
@@ -73,6 +74,28 @@ public class Solution
             intArr[i] = currNum;
         }
         return intArr;
+    }
+
+
+    public static int[] twoSum(int[] nums, int target) {
+
+        //(3, 0), (4, 1), ()
+        HashMap<Integer, Integer> l = new HashMap<Integer, Integer>();
+
+        for(int i = 0;  i < nums.length; i++){
+            int num = target - nums[i];
+
+            if(l.containsKey(nums[i])){
+                //return new int[]{l.get(num), i};// (1, 2)
+                int[] a = new int[2];
+                a[0] = l.get(nums[i]);
+                a[1] = i;
+                return a;
+            }
+
+            l.put(num, i);
+        }
+        return null;
     }
 
 }
