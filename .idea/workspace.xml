@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/CoinChange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HackerRank/LarrysArray/Solution.java" afterPath="$PROJECT_DIR$/src/HackerRank/LarrysArray/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeetCode/CoinChange.java" afterPath="$PROJECT_DIR$/src/LeetCode/CoinChange.java" />
     </list>
     <ignored path="PracticeProblems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,10 +48,11 @@
       <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="32" column="51" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="32" selection-end-column="51" />
+            <state relative-caret-position="99">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#183#201#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -999,7 +999,7 @@
       <workItem from="1492109673639" duration="4626000" />
       <workItem from="1492136337360" duration="360000" />
       <workItem from="1492154593824" duration="56000" />
-      <workItem from="1492571040598" duration="2774000" />
+      <workItem from="1492571040598" duration="2903000" />
     </task>
     <task id="LOCAL-00001" summary="Finished implementation of merge sort">
       <created>1451273616219</created>
@@ -1260,11 +1260,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486369365588</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Solved the coin change problem using dynamic programming">
+      <created>1492580364904</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1492580364904</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44400000" />
+    <option name="totallyTimeSpent" value="44529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1319,7 +1326,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
-    <MESSAGE value="Implemented FindPonds. Finished testing." />
     <MESSAGE value="Added extra tests." />
     <MESSAGE value="Parse input of individual items." />
     <MESSAGE value="Added counter culture problem. Implemented flip helper method as well as remove trailing zeros." />
@@ -1344,7 +1350,8 @@
     <MESSAGE value="Implemented magic index" />
     <MESSAGE value="Implemented the anagram problem" />
     <MESSAGE value="Implemented the partial text finder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the partial text finder" />
+    <MESSAGE value="Solved the coin change problem using dynamic programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved the coin change problem using dynamic programming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1819,10 +1826,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/CoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="51" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="32" selection-end-column="51" />
+        <state relative-caret-position="99">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#183#201#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
           </folding>
         </state>
       </provider>
