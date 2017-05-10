@@ -60,8 +60,8 @@
       <file leaf-file-name="SmallestDifference.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SmallestDifference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="150">
+              <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1015,7 +1015,7 @@
       <workItem from="1492724509449" duration="942000" />
       <workItem from="1493181138811" duration="478000" />
       <workItem from="1493542972311" duration="7000" />
-      <workItem from="1494401604929" duration="734000" />
+      <workItem from="1494401604929" duration="889000" />
     </task>
     <task id="LOCAL-00001" summary="Finished implementation of merge sort">
       <created>1451273616219</created>
@@ -1297,11 +1297,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494401786389</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Finished implementation of smallest difference">
+      <created>1494402374432</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1494402374432</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50839000" />
+    <option name="totallyTimeSpent" value="50994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1316,7 +1323,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41741356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41741356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1356,7 +1363,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
-    <MESSAGE value="Added counter culture problem. Implemented flip helper method as well as remove trailing zeros." />
     <MESSAGE value="Finish implementation and testing of CounterCulture." />
     <MESSAGE value="Parsing multiple item now instead of one." />
     <MESSAGE value="Completed implementation of store credit" />
@@ -1381,7 +1387,8 @@
     <MESSAGE value="Solved the coin change problem using dynamic programming" />
     <MESSAGE value="Solved the coin change problem using dynamic programming. Cleaned up file" />
     <MESSAGE value="Set up new folder for moderate difficulty question in Cracking the Coding interview book." />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up new folder for moderate difficulty question in Cracking the Coding interview book." />
+    <MESSAGE value="Finished implementation of smallest difference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished implementation of smallest difference" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1864,8 +1871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SmallestDifference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="150">
+          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

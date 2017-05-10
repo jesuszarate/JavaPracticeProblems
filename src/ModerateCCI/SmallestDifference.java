@@ -4,9 +4,16 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
+ * Description
+ *
+ * Smallest difference:
+ * Given two arrays of integers, compute the pair of values (one value in each array) with the
+ * smallest (non-negative) difference. Return the difference.
+ *
  * Created by jesuszarate on 5/10/17.
  */
 public class SmallestDifference {
+
 
     public static void main(String[] a){
 
