@@ -3,6 +3,9 @@ package ModerateCCI;
 import java.util.HashSet;
 
 /**
+ * You are building a diving board b placing a bunch of plants of words, end-to-end, These are two types of planks,
+ * one of length shorter and one of length longer. You must use exactly K planks of wood. Write a method to generate
+ * all possible lengths for the diving board.
  *
  * Created by jesuszarate on 5/16/17.
  */

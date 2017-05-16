@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ModerateCCI/DivingBoard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ModerateCCI/DivingBoard.java" afterPath="$PROJECT_DIR$/src/ModerateCCI/DivingBoard.java" />
     </list>
     <ignored path="PracticeProblems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,10 +82,10 @@
       <file leaf-file-name="DivingBoard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ModerateCCI/DivingBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
-                <element signature="e#249#258#0" expanded="true" />
+                <element signature="e#528#537#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1038,7 +1038,7 @@
       <workItem from="1493181138811" duration="478000" />
       <workItem from="1493542972311" duration="7000" />
       <workItem from="1494401604929" duration="3525000" />
-      <workItem from="1494922301948" duration="522000" />
+      <workItem from="1494922301948" duration="768000" />
     </task>
     <task id="LOCAL-00001" summary="Finished implementation of merge sort">
       <created>1451273616219</created>
@@ -1341,11 +1341,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494411917341</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Implemented diving board problem">
+      <created>1494922843631</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1494922843632</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54152000" />
+    <option name="totallyTimeSpent" value="54398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1400,7 +1407,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
-    <MESSAGE value="Completed implementation of store credit" />
     <MESSAGE value="Added pegman problem." />
     <MESSAGE value="Finished max value of lengths problem." />
     <MESSAGE value="Implemented arraySums" />
@@ -1425,7 +1431,8 @@
     <MESSAGE value="Finished implementation of smallest difference" />
     <MESSAGE value="Added description to the problem" />
     <MESSAGE value="Implemented english to integer problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented english to integer problem" />
+    <MESSAGE value="Implemented diving board problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented diving board problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1917,10 +1924,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ModerateCCI/DivingBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
-            <element signature="e#249#258#0" expanded="true" />
+            <element signature="e#528#537#0" expanded="true" />
           </folding>
         </state>
       </provider>
