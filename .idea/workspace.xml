@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="Implemented SubSort problem recursively.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ModerateCCI/SubSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ModerateCCI/DivingBoard.java" afterPath="$PROJECT_DIR$/src/ModerateCCI/DivingBoard.java" />
     </list>
@@ -91,8 +90,8 @@
       <file leaf-file-name="SubSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SubSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+            <state relative-caret-position="106">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1052,7 +1051,7 @@
       <workItem from="1494401604929" duration="3525000" />
       <workItem from="1494922301948" duration="1325000" />
       <workItem from="1494968241974" duration="1316000" />
-      <workItem from="1495003467434" duration="2287000" />
+      <workItem from="1495003467434" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="Finished implementation of merge sort">
       <created>1451273616219</created>
@@ -1369,11 +1368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494923084700</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Implemented SubSort problem recursively.">
+      <created>1494400993361</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1494400993361</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58558000" />
+    <option name="totallyTimeSpent" value="58603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1944,8 +1950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SubSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        <state relative-caret-position="106">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

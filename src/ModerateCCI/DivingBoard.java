@@ -11,6 +11,9 @@ import java.util.HashSet;
  */
 public class DivingBoard {
 
+    public static void main(String[] a){
+        System.out.println(getLengths(2, 1, 2));
+    }
 
     public static HashSet<Integer> getLengths(int k, int longer, int shorter){
         HashSet<Integer> lens = new HashSet<Integer>();
@@ -28,4 +31,6 @@ public class DivingBoard {
         getLengths(k-1, total + longer, longer, shorter, lens);
         getLengths(k-1, total + shorter, longer, shorter, lens);
     }
+
+
 }
