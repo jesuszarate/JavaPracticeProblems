@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ModerateCCI/SumSwap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/CounterCulture.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/CounterCulture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman$node.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman$node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/Pegman.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/StoreCredit.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/CodeJamProblems/StoreCredit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/DynamicPrograms/EverySubsetOfSet.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/DynamicPrograms/EverySubsetOfSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/DynamicPrograms/KnapSack.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/DynamicPrograms/KnapSack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Equalibrium$Node.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Equalibrium$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Equalibrium.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Equalibrium.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/FindPonds$Node.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/FindPonds$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/FindPonds.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/FindPonds.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/IsNumPalindrome.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/IsNumPalindrome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/IsSentencePalindrome.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/IsSentencePalindrome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Main.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Part1.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Part1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Part2.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Part2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Part4.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Part4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Part5.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Part5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Permutaions$nFactorialPermutation.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Permutaions$nFactorialPermutation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Permutaions.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Permutaions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/ReverseString.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/ReverseString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/ReverseWords.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/ReverseWords.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Sorting/MainSort.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Sorting/MainSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Sorting/MergeSort.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Sorting/MergeSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Sorting/QuickSort.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Sorting/QuickSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/ThreadExample.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/ThreadExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/Threads.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/Threads.class" />
+    <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="Implemented SumSwap">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/KnapSackProblemDynamicProgramming.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PracticeProblems.iws" />
@@ -54,27 +28,63 @@
       <file leaf-file-name="PondSizes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ModerateCCI/PondSizes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="345">
               <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumSwap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SumSwap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondSmallest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SecondSmallest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestIncreasingSubSequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestIncreasingSubSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ModerateCCI/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#216#225#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumSwap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SumSwap.java">
+      <file leaf-file-name="KnapSackProblemDynamicProgramming.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/KnapSackProblemDynamicProgramming.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-              <folding>
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,11 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Sorting/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/ReverseWords.java" />
-        <option value="$PROJECT_DIR$/src/DynamicPrograms/KnapSack.java" />
-        <option value="$PROJECT_DIR$/src/FindPonds.java" />
-        <option value="$PROJECT_DIR$/src/CodeJamProblems/CounterCulture.java" />
         <option value="$PROJECT_DIR$/src/CodeJamProblems/StoreCredit.java" />
         <option value="$PROJECT_DIR$/src/DynamicPrograms/EverySubsetOfSet.java" />
         <option value="$PROJECT_DIR$/src/CodeJamProblems/Pegman.java" />
@@ -155,6 +160,11 @@
         <option value="$PROJECT_DIR$/src/LeetCode/PathSum.java" />
         <option value="$PROJECT_DIR$/src/ModerateCCI/PondSizes.java" />
         <option value="$PROJECT_DIR$/src/ModerateCCI/SumSwap.java" />
+        <option value="$PROJECT_DIR$/src/ModerateCCI/SecondSmallest.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LongestIncreasingSubSequence.java" />
+        <option value="$PROJECT_DIR$/src/ModerateCCI/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/KnapSackProblem.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/KnapSackProblemDynamicProgramming.java" />
       </list>
     </option>
   </component>
@@ -214,9 +224,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,28 +288,6 @@
               <option name="myItemId" value="LeetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PathSum.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -338,87 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumSwap">
-    <configuration default="false" name="DivingBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ModerateCCI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ModerateCCI.DivingBoard" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeProblems" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SubSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ModerateCCI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ModerateCCI.SubSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeProblems" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="LeetCode.PathSum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeProblems" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PondSizes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ModerateCCI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ModerateCCI.PondSizes" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PracticeProblems" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.KnapSackProblemDynamicProgramming">
     <configuration default="false" name="SumSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -427,6 +335,86 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ModerateCCI.SumSwap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeProblems" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SecondSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ModerateCCI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ModerateCCI.SecondSmallest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeProblems" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LongestIncreasingSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LongestIncreasingSubSequence" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeProblems" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ModerateCCI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ModerateCCI.Calculator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PracticeProblems" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="KnapSackProblemDynamicProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="LeetCode.KnapSackProblemDynamicProgramming" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -945,19 +933,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DivingBoard" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SubSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PathSum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PondSizes" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SumSwap" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SumSwap" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SecondSmallest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LongestIncreasingSubSequence" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Calculator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.KnapSackProblemDynamicProgramming" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SumSwap" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PondSizes" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PathSum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SubSort" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DivingBoard" />
+        <item index="0" class="java.lang.String" itemvalue="Application.KnapSackProblemDynamicProgramming" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Calculator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LongestIncreasingSubSequence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SecondSmallest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SumSwap" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1030,7 +1018,11 @@
       <workItem from="1497666752195" duration="5461000" />
       <workItem from="1497754024263" duration="2366000" />
       <workItem from="1497851514314" duration="3602000" />
-      <workItem from="1497935697154" duration="998000" />
+      <workItem from="1497935697154" duration="1977000" />
+      <workItem from="1498538522831" duration="238000" />
+      <workItem from="1498620171810" duration="12852000" />
+      <workItem from="1500176554234" duration="434000" />
+      <workItem from="1501035593177" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="Finished implementation of merge sort">
       <created>1451273616219</created>
@@ -1368,11 +1360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497858455044</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Implemented SumSwap">
+      <created>1497936711600</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1497936711600</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76311000" />
+    <option name="totallyTimeSpent" value="92591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1388,19 +1387,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41741356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24199744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19241774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35211268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35211268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1427,7 +1426,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added code from Google interview." />
     <MESSAGE value="Added methods that compile from the Google interview." />
     <MESSAGE value="Updated questions from Google by adding first interview questions." />
     <MESSAGE value="Added class that finds the sum of two elements in an array that equals an integer x." />
@@ -1452,7 +1450,8 @@
     <MESSAGE value="Implemented SubSort problem recursively." />
     <MESSAGE value="Made some improvements" />
     <MESSAGE value="Implemented and finished pondSize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented and finished pondSize" />
+    <MESSAGE value="Implemented SumSwap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented SumSwap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1571,7 +1570,7 @@
           <option name="timeStamp" value="156" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="160" />
+      <option name="time" value="170" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1580,36 +1579,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IsNumPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DynamicPrograms/KnapSack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindPonds.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1906,9 +1875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1927,10 +1893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#444#445#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1938,7 +1900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1961,25 +1922,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ModerateCCI/PondSizes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="345">
           <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#225#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SumSwap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestIncreasingSubSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SecondSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ModerateCCI/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/KnapSackProblemDynamicProgramming.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
