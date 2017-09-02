@@ -1,5 +1,7 @@
 package LeetCode;
 
+import java.util.Arrays;
+
 public class Search2DMatrix {
 
     public static void main(String[] a) {
