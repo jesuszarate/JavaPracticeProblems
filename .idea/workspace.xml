@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/PerfectNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MicrosoftCodingCompetition/PracticeInput.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MicrosoftCodingCompetition/TransformDateFormat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PracticeProblems.iws" />
@@ -24,31 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SumSwap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SumSwap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SecondSmallest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ModerateCCI/SecondSmallest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
               <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestIncreasingSubSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestIncreasingSubSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerfectNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PerfectNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/PerfectNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
@@ -123,6 +104,29 @@
                 <element signature="e#89#90#0" expanded="true" />
                 <element signature="e#149#150#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransformDateFormat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MicrosoftCodingCompetition/TransformDateFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1357">
+              <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1962#1979#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PracticeInput.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MicrosoftCodingCompetition/PracticeInput.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Practice.java" />
         <option value="$PROJECT_DIR$/src/GoogleInterview/myIterator.java" />
         <option value="$PROJECT_DIR$/src/GoogleInterview/main.java" />
         <option value="$PROJECT_DIR$/src/GoogleInterview/Divisibleby5or6.java" />
@@ -204,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Search2DMatrix.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/FindErrorNums.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/PerfectNumber.java" />
+        <option value="$PROJECT_DIR$/src/MicrosoftCodingCompetition/TransformDateFormat.java" />
       </list>
     </option>
   </component>
@@ -279,7 +283,7 @@
               <item name="PracticeProblems" type="b2602c69:ProjectViewProjectNode" />
               <item name="PracticeProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="MicrosoftCodingCompetition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,6 +315,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/MicrosoftCodingCompetition" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1015,14 +1024,7 @@
       <workItem from="1503991809202" duration="5324000" />
       <workItem from="1504297257379" duration="42000" />
       <workItem from="1504321816598" duration="3464000" />
-      <workItem from="1504513377514" duration="1932000" />
-    </task>
-    <task id="LOCAL-00005" summary="Implemented reverse words class.">
-      <created>1451355614449</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1451355614449</updated>
+      <workItem from="1504513377514" duration="4541000" />
     </task>
     <task id="LOCAL-00006" summary="Added a dynamic program section. Started knapsack problem.">
       <created>1451417157504</created>
@@ -1360,11 +1362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504328892484</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Implemented FindErrorNums passed leetcode tests">
+      <created>1504671245216</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1504671245217</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117675000" />
+    <option name="totallyTimeSpent" value="120284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -1602,24 +1611,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CareerCup/SumOfArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1388#1397#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeJamProblems/Pegman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GoogleInterview/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1995,6 +1986,25 @@
             <element signature="e#89#90#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MicrosoftCodingCompetition/TransformDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1962#1979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MicrosoftCodingCompetition/PracticeInput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
