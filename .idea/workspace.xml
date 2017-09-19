@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HackerRank/LarrysArray/DavidsStaircase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PracticeProblems.iws" />
@@ -24,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sorting/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuickSort2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sorting/QuickSort2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,7 +76,7 @@
       <file leaf-file-name="TriesContacts.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/TriesContacts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="585">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,21 +88,32 @@
       <file leaf-file-name="LongestIncreasingSubSequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestIncreasingSubSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
+            <state relative-caret-position="150">
               <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DavidsStaircase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DavidsStaircase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HackerRank/LarrysArray/DavidsStaircase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="24" column="83" lean-forward="false" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+            <state relative-caret-position="173">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1077#1095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTargetWithOperations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#641#650#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BigIntMultiplication.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/BigInteger/BigInt.java" />
         <option value="$PROJECT_DIR$/src/BigInteger/BigIntMultiplication.java" />
@@ -218,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/TriesContacts.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/LongestIncreasingSubSequence.java" />
         <option value="$PROJECT_DIR$/src/HackerRank/LarrysArray/DavidsStaircase.java" />
+        <option value="$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java" />
       </list>
     </option>
   </component>
@@ -234,9 +235,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="147" />
-    <option name="width" value="1280" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -278,6 +279,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,12 +291,6 @@
               <item name="PracticeProblems" type="b2602c69:ProjectViewProjectNode" />
               <item name="PracticeProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PracticeProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PracticeProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LarrysArray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PracticeProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -318,7 +314,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -361,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubSequence">
+  <component name="RunManager" selected="Application.FindTargetWithOperations">
     <configuration name="Bulbs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -381,14 +376,14 @@
       <module name="PracticeProblems" />
       <envs />
     </configuration>
-    <configuration name="LongestIncreasingSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FindTargetWithOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="FacebookInterview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LongestIncreasingSubSequence" />
+      <option name="MAIN_CLASS_NAME" value="FacebookInterview.FindTargetWithOperations" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -400,14 +395,14 @@
       <module name="PracticeProblems" />
       <envs />
     </configuration>
-    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestIncreasingSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Sorting.QuickSort2" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LongestIncreasingSubSequence" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -973,19 +968,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.QuickSort2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ReverseWordsInSentence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Bulbs" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TriesContacts" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LongestIncreasingSubSequence" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ReverseWordsInSentence" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Bulbs" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TriesContacts" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LongestIncreasingSubSequence" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FindTargetWithOperations" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LongestIncreasingSubSequence" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TriesContacts" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Bulbs" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReverseWordsInSentence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.QuickSort2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FindTargetWithOperations" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LongestIncreasingSubSequence" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TriesContacts" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Bulbs" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ReverseWordsInSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -1054,14 +1049,8 @@
       <workItem from="1504321816598" duration="3464000" />
       <workItem from="1504513377514" duration="9321000" />
       <workItem from="1505101264325" duration="7005000" />
-      <workItem from="1505448390417" duration="5707000" />
-    </task>
-    <task id="LOCAL-00011" summary="Added extra tests.">
-      <created>1451700962094</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1451700962094</updated>
+      <workItem from="1505448390417" duration="6327000" />
+      <workItem from="1505858933064" duration="2678000" />
     </task>
     <task id="LOCAL-00012" summary="Parse input of individual items.">
       <created>1451781660540</created>
@@ -1399,15 +1388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1505805460945</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="davids staircase using dynamic programming">
+      <created>1505805606544</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1505805606544</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137776000" />
+    <option name="totallyTimeSpent" value="141074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1417,18 +1412,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35211268" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32262212" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32262212" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2353362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29048842" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28920308" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1458,7 +1453,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented Big Integer multiplication" />
     <MESSAGE value="Solved some hackerRank problems" />
     <MESSAGE value="Implemented 2 more practice problems" />
     <MESSAGE value="Better implementation&#10;" />
@@ -1483,7 +1477,8 @@
     <MESSAGE value="Code for microsoft coding competition." />
     <MESSAGE value="Implementation of in order successor" />
     <MESSAGE value="Second attempt at quicksort to remember details about the implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second attempt at quicksort to remember details about the implementation" />
+    <MESSAGE value="davids staircase using dynamic programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="davids staircase using dynamic programming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1661,8 +1656,14 @@
           <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="198" />
+      <option name="time" value="203" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1671,13 +1672,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TreeShapes/TreeShapes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BigInteger/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1968,7 +1962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2058,7 +2051,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/TriesContacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="585">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2068,7 +2061,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/LongestIncreasingSubSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
+        <state relative-caret-position="150">
           <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
@@ -2076,11 +2069,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HackerRank/LarrysArray/DavidsStaircase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="83" lean-forward="false" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+        <state relative-caret-position="173">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1077#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#641#650#0" expanded="true" />
           </folding>
         </state>
       </provider>
