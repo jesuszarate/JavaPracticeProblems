@@ -8,7 +8,8 @@ import java.util.HashMap;
 public class LongestIncreasingSubSequence {
 
     public static void main(String[] argv){
-        int[] arr = {5, 2, 8, 6, 3, 6, 9, 7};
+        //int[] arr = {5, 2, 8, 6, 3, 6, 9, 7};
+        int[] arr = {10,9,2,5,3,7,101,18};
 
         System.out.println(longestIncreaingSubsequence(arr));
     }
