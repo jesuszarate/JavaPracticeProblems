@@ -4,6 +4,17 @@ import java.util.HashSet;
 
 public class FindTargetWithOperations {
 
+
+    /**
+     * Given an array with N numbers determine is you can get a target K
+     * performing only the following operations: +, -, *, /
+     *
+     * Must use every number exactly once and in any order
+     *
+     * e.g [7, 3, 3, 1] target 24
+     *
+     * @param a
+     */
     public static void main(String[] a){
 
         int[] N = {7, 3, 3, 1};

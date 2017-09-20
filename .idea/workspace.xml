@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d6b34c-6915-46c1-86df-a2e279a89f6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java" afterPath="$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java" />
     </list>
     <ignored path="PracticeProblems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,10 +110,10 @@
       <file leaf-file-name="FindTargetWithOperations.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="-292">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding>
-                <element signature="e#641#650#0" expanded="true" />
+                <element signature="e#922#931#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1050,14 +1050,7 @@
       <workItem from="1504513377514" duration="9321000" />
       <workItem from="1505101264325" duration="7005000" />
       <workItem from="1505448390417" duration="6327000" />
-      <workItem from="1505858933064" duration="2678000" />
-    </task>
-    <task id="LOCAL-00012" summary="Parse input of individual items.">
-      <created>1451781660540</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1451781660540</updated>
+      <workItem from="1505858933064" duration="3512000" />
     </task>
     <task id="LOCAL-00013" summary="Added counter culture problem. Implemented flip helper method as well as remove trailing zeros.">
       <created>1451958835790</created>
@@ -1395,14 +1388,22 @@
       <option name="project" value="LOCAL" />
       <updated>1505805606544</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Interview with Facebook question">
+      <created>1505864788573</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1505864788574</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141074000" />
+    <option name="totallyTimeSpent" value="141908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1423,7 +1424,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28920308" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28920308" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1453,7 +1454,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solved some hackerRank problems" />
     <MESSAGE value="Implemented 2 more practice problems" />
     <MESSAGE value="Better implementation&#10;" />
     <MESSAGE value="Implemented magic index" />
@@ -1478,7 +1478,8 @@
     <MESSAGE value="Implementation of in order successor" />
     <MESSAGE value="Second attempt at quicksort to remember details about the implementation" />
     <MESSAGE value="davids staircase using dynamic programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="davids staircase using dynamic programming" />
+    <MESSAGE value="Interview with Facebook question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interview with Facebook question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1655,12 +1656,6 @@
           <line>39</line>
           <properties />
           <option name="timeStamp" value="195" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="200" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="203" />
@@ -2079,10 +2074,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FacebookInterview/FindTargetWithOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="-292">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
-            <element signature="e#641#650#0" expanded="true" />
+            <element signature="e#922#931#0" expanded="true" />
           </folding>
         </state>
       </provider>
