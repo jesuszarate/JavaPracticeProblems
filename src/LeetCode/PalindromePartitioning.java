@@ -41,11 +41,6 @@ public class PalindromePartitioning {
     }
 
     public static void backtrack(String s, List<List<String>> list, List<String> temp, int start){
-        // list  = []
-
-        // start = 0, (start = 1)
-
-        // temp  = ["", ]
 
         if(temp.size() > 0 && !isPalindrome(temp.get(temp.size() - 1))) return;
 
@@ -59,7 +54,6 @@ public class PalindromePartitioning {
             temp.add(s.substring(start, i + 1));
             backtrack(s, list, temp, i + 1);
             temp.remove(temp.size() - 1);
-
         }
     }
 
